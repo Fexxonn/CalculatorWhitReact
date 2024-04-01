@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  max-width: 1440px;
+  height: 100vh;
+  background: black;
+  display: flex;
+  flex-direction: column;
+}
+.container-logo {
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  padding: 50px 0 0 0;
+}
+
+.container-calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-botones {
+  width: 300px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
