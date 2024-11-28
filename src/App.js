@@ -32,7 +32,7 @@ function App() {
   return (
     <div className="App">
       <div className="container-logo">
-        <h1>CalculatorWhitReact</h1>
+        <h1>CalculatorWithReact</h1>
         <h2>ByFexxonn</h2>
       </div>
       <div className="container-calculator">
